@@ -11,5 +11,8 @@ public class SimpleController {
 	public @ResponseBody String simple() {
 		return "Hello world!";
 	}
-
+	@RequestMapping("/dd")
+	public String s(){
+		return "";
+	}
 }
